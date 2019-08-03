@@ -17,12 +17,13 @@ pkg install sl
 clear
 python2 osas.py
 clear
-figlet -f slant "T 0 0 l s v 1" | lolcat
+figlet -f slant "T 0 0 l s v 2" | lolcat
 echo $bi"╔══════"$me"═══════"$cy"═══════"$me"══════"$bi"═════╗"
-echo $bi"║              "               $bi"                 ║"
+echo $bi"║              "               $bi"                ║"
 echo       $ku"   NAMA : <"$pur$nama$ku">"
 echo       $ku" Creator : <"$i"Azis Wirahadi>"
-echo $bi"║              "               $bi"                 ║"
+echo       $ku" Santuy Hacker Team "
+echo $bi"║              "               $bi"                  ║"
 echo $bi"╚═"$cy"║☆║✥║☆║✥║☆║✥║☆║✥║☆║✥║☆║✥║☆║✥║☆║"$bi"═╝"
 sleep 0.5
 
@@ -34,6 +35,10 @@ echo $ku"*["$me"4"$ku"]"$i" Fbguard" | lolcat
 echo $ku"*["$me"5"$ku"]"$i" seeker" | lolcat
 echo $ku"*["$me"6"$ku"]"$i" bomcall" | lolcat
 echo $ku"*["$me"7"$ku"]"$i" LITEDDOS" | lolcat
+echo $ku"*["$me"8"$ku"]"$i" Weeman" | lolcat
+echo $ku"*["$me"9"$ku"]"$i" menstabilkan sinyal" | lolcat
+echo $ku"*["$me"10"$ku"]"$i" Install Cupp Buat Worldlist Tertarget" | lolcat
+echo $ku"*["$me"11"$ku"]"$i" Install CamStream-V3" | lolcat
 echo $ku"*["$me"99"$ku"]"$i" EXIT " | lolcat
 echo "█║▌│█│║▌║│█║║▌│█║│██║▌│█│║▌║│█║" | lolcat
 echo $pur" *╭─"$pur"Masukkan pilihan anda"$pur
@@ -44,7 +49,6 @@ if [ $pil = 1 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
-
 clear
 sl
 sleep 0.5
@@ -57,11 +61,10 @@ if [ $pil = 2 ]
 then
 clear
 figlet -f slant "TUNGGU..."|lolcat
-
 clear
 sl
 sleep 0.5
-cd $HOME/T00lsv1/LITESPAM
+cd $HOME/T00lsv2/LITESPAM
 sh LITESPAM.sh
 fi
 
@@ -74,7 +77,7 @@ git clone https://github.com/rahmadxyz/ToolsLengkap
 clear
 sl
 sleep 0.5
-cd $HOME/T00lsv1/ToolsLengkap
+cd $HOME/T00lsv2/ToolsLengkap
 sh rahmad.sh
 fi
 
@@ -86,8 +89,7 @@ git clone https://github.com/J4CK0P/fbguard
 clear
 sl
 sleep 0.5
-cd $HOME/T00lsv1/fbguard
-
+cd $HOME/T00lsv2/fbguard
 sh guard.sh
 fi
 
@@ -96,11 +98,10 @@ then
 clear
 figlet -f slant "TUNGGU..."|lolcat
 git clone https://github.com/thewhiteh4t/seeker
-
 clear
 sl
 sleep 0.5
-cd $HOME/T00lsv1/seeker
+cd $HOME/T00lsv2/seeker
 python3 seeker.py
 fi
 
@@ -108,11 +109,10 @@ if [ $pil = 6 ]
 then
 clear
 figlet -f slant "TUNGGU..."|lolcat
-
 clear
 sl
 sleep 0.5
-cd $HOME/T00lsv1/bomcall
+cd $HOME/T00lsv2/bomcall
 sh bomcall.sh
 fi
 
@@ -124,8 +124,58 @@ git clone https://github.com/4L13199/LITEDDOS
 clear
 sl
 sleep 0.5
-cd $HOME/T00lsv1/LITEDDOS
+cd $HOME/T00lsv2/LITEDDOS
 python2 LITEDDOS.py
+fi
+
+
+if [ $pil = 8 ]
+then
+clear
+figlet -f slant "TUNGGU..."|lolcat
+git clone https://github.com/evait-security/weeman
+clear
+sl
+sleep 0.5
+cd $HOME/T00lsv2/weeman
+python2 weeman.py
+fi
+
+if [ $pil = 9 ]
+then
+clear
+figlet -f slant "TUNGGU..."|lolcat
+echo "\033[32;m===================Mempercepat / menstabilkan sinyal===================="
+sleep 1
+echo "\033[32;1m==============================By Mr.J4CK0P==============================="
+sleep 1
+echo ""
+echo ""
+ping -D www.google.com
+fi
+
+if [ $pil = 10 ]
+then
+clear
+figlet -f slant "TUNGGU..."|lolcat
+git clone https://github.com/mebus/cupp.git
+clear
+sl
+sleep 0.5
+cd $HOME/T00lsv2/cupp
+python2 cupp.py
+fi
+
+if [ $pil = 11 ]
+then
+clear
+figlet -f slant "TUNGGU..."|lolcat
+git clone git clone https://github.com/avramit/CamStream-V3
+clear
+sl
+sleep 0.5
+cd $HOME/T00lsv2/CamStream-V3
+python2 MjpegStream.py
 fi
 
 if [ $pil = 99 ]
