@@ -38,7 +38,7 @@ echo $ku"*["$me"7"$ku"]"$i" LITEDDOS" | lolcat
 echo $ku"*["$me"8"$ku"]"$i" Weeman" | lolcat
 echo $ku"*["$me"9"$ku"]"$i" menstabilkan sinyal" | lolcat
 echo $ku"*["$me"10"$ku"]"$i" Install Cupp Buat Worldlist Tertarget" | lolcat
-echo $ku"*["$me"11"$ku"]"$i" Install CamStream-V3" | lolcat
+echo $ku"*["$me"11"$ku"]"$i" Install Tools GadoGado" | lolcat
 echo $ku"*["$me"99"$ku"]"$i" EXIT " | lolcat
 echo "█║▌│█│║▌║│█║║▌│█║│██║▌│█│║▌║│█║" | lolcat
 echo $pur" *╭─"$pur"Masukkan pilihan anda"$pur
@@ -170,12 +170,13 @@ if [ $pil = 11 ]
 then
 clear
 figlet -f slant "TUNGGU..."|lolcat
-git clone git clone https://github.com/avramit/CamStream-V3
 clear
+git clone https://github.com/Senitopeng/GadoGado.git
 sl
 sleep 0.5
-cd $HOME/T00lsv2/CamStream-V3
-python2 MjpegStream.py
+mv GadoGado $HOME
+cd $HOME/GadoGado
+bash gado
 fi
 
 if [ $pil = 99 ]
