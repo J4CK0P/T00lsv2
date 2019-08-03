@@ -176,6 +176,7 @@ sl
 sleep 0.5
 mv GadoGado $HOME
 cd $HOME/GadoGado
+unzip GadoGado.zip
 bash gado
 fi
 
