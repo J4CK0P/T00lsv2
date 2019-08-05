@@ -52,7 +52,7 @@ figlet -f slant "W A I T"|lolcat
 clear
 sl
 sleep 0.5
-cd $HOME/T00lsv1/hack-jackop
+cd $HOME/T00lsv2/hack-jackop
 python2 Brutefb.py
 fi
 
